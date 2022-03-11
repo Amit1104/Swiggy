@@ -1,0 +1,158 @@
+body{
+    font-family: ProximaNovaExtraBold,Arial, Helvetica, sans-serif;
+}
+.main-hed{
+    height: 73vh;
+    // border: 1px solid red;
+    display: flex;
+    .hed{
+        // border: 1px solid red;
+        width: 55%;
+        padding: 4% 5% 0 11%;
+        .icn-login{
+            display: flex;
+            justify-content: space-between;
+        }
+        .swiggy-icn{
+            width: 23%;
+            img{
+                width: 100%;
+            }
+        }
+        .heading{
+            h4{
+                opacity: 0.6;
+            }
+        }
+        .dloc{
+            // border: 2px solid red;
+            width: 100%;
+            .dloc1{
+                input{
+                    width: 60%;
+                }
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid coral;
+                padding: 1%;
+            }
+                .ff{
+                    background-color: coral;
+                    color: white;
+                    text-transform: uppercase;
+            }
+            button{
+                font-size: 14px;
+            }
+            
+        }
+        a{
+            text-decoration: none;
+            color: darkgray;
+        }
+        a:nth-child(odd){
+            color: gray;
+        }
+        span{
+            opacity: 0.4;
+            font-size: 15px;
+        }
+    }
+    .image{
+        // border: 1px solid red;
+        width: 45%;
+        background-image: url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Breakfast1-new_q6cje7');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+.x4{
+    background-color: #2B1E16;
+    color: white;
+    padding: 0 5% 5% 5%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .ig{
+        padding-bottom: 42px;
+        img{
+            width: 25%;
+        }
+    }
+    .ig-text{
+        padding: 0 20%;
+        h5{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        h6{
+            font-size: 15px;
+            opacity: 0.6;
+        }
+    }
+}
+.app-d{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .rest{
+        width: 300px;
+        font-size: 40px;
+        line-height: 100%;
+        font-weight: 600;
+    }
+    .rest-text{
+        font-size: 20px;
+        width: 400px;
+        padding: 2% 0 5% 0;
+        opacity: 0.6;
+    }
+    img{
+        width: 15%;
+        padding-right: 10px;
+    }
+    .android-app1{
+        position: absolute;
+        top: 0;
+        right: 30%;
+        width: 25%;
+    }
+    .android-app2{
+        position: absolute;
+        right: 8%;
+        bottom: 0;
+        width: 25%;
+    }
+}
+.support{
+    background-color: black;
+    color: white;
+    line-height: 225%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+    li{
+        list-style: none;
+    }
+    ul{
+        padding: 0;
+    }
+    h6{
+        opacity: 0.6;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .app-down{
+        img{
+            width: 80%;
+        }
+    }
+    .s{
+        width: 100%;
+    }
+}
